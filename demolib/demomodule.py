@@ -2,7 +2,7 @@
 
 Contains functions which are buggy or not generic
 """
-def find_median(list_)
+def find_median(list_):
     """ returns the statistical median from list
     """
     # bugs: does not sort list
