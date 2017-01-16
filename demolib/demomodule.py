@@ -19,9 +19,9 @@ def say_hello(hello):
     print hello
 
 class DemoClass(object):
-    """ A simple class that has an unwieldy constructor
+    """ A simple class that has an unwieldy module
     """
-    def __init__(self):
+    def do_sillyy_stuff(self):
         #this should take a while to compute on most modern computers
         #also indentation is wonky
         self._value = sum(
@@ -29,5 +29,6 @@ class DemoClass(object):
             ))
 
     def add(self, value)
-        """ return stored value plus given value """
+        """ return generated value plus given value """
+        self.do_wonky_stuff()
         return self._value + value
